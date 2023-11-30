@@ -1,5 +1,43 @@
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px){
     .container{
         max-width: 750px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 570px;
+        padding: 0;        
+    }
+    .row{
+        display: block;
+    }
+    .col{
+        margin: auto;
+        padding: 0 0 50px 0;
+    }
+    .steps{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .steps .card{
+        position: relative;
+        right: 55%;
+        padding: 0 50px;
+        width: 400px;
+    }
+    .why-us{
+        padding-top: 60px;
+        margin-bottom: 0;
+        background-color: #222222;
+    }
+    .why-us .text-center{
+        padding: 0 100px;
+        margin: auto;
+    }
+    .why-us .col-left{
+        width: 50%;
+    }
+    .col-right ul{
+        padding: 0 20px;
     }
 }
